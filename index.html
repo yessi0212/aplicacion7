@@ -1,0 +1,441 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>septima Aplicación</title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/app3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/antecedentes2.jpg','imagenes/ignacio2.jpg','imagenes/miguel2.jpg')">
+  <div data-role="page" id="Principal" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+      <h1>Batalla Del 5  De Mayo.</h1>
+    </div>
+    <br>
+   <div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+ </div>
+  <br>
+ 
+  <br>
+ <div>
+       <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla de Puebla.</h2>
+           </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Celebración en otros países.</h2>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+           <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Heroes De La Batalla</h2>
+           </a>
+           </li>
+           <li class="ui-first-child ui-last-child">
+               <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+               <h2>4 de Mayo</h2> 
+               </a>
+              </li>
+         </ul>
+ </div>
+  <div align="center">
+     <p><a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla"></a></p>
+     <p><a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla">Más Información</a></p>
+  </div>
+ 
+<div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+     <h4>Aplicacion Tres</h4>
+   </div>
+  <div>  
+    <img src="res/android/mdpi.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Yessica Perez Morales</h4>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+  <h1>Batalla de Puebla</h1>
+   </div>
+   <div data-role="content" align="center">
+    
+    
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Batalla de Puebla</h1>
+          <div align="justify">
+          <p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.
+
+Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir,1 los franceses se retiraron incondicionalmente del país en el año de1867.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/batalla.jpg"> </div>
+     </div>
+     </div>
+    
+    
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Antecedentes.</h1>
+          <div align="justify">
+          <p>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México para reclamar sus derechos como acreedores por una deuda que ascendía a alrededor de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.
+
+El contingente europeo, estaba compuesto de la siguiente manera:
+
+España: 6000 hombres al mando del General Juan Prim
+Francia: 3000 hombres dirigidos por el Contraalmirante Jurien de la Gravière.
+Reino Unido: 700 marines bajo el comando del Comodoro Dunlop.2
+Poco después de reunirse, los representantes de los tres países enviaron un ultimátum al gobierno mexicano en el que pedían el pago de sus deudas; de lo contrario, invadirían el país. Juárez, quien gobernaba a un país que apenas empezaba a levantarse de la postración económica, respondió con un exhorto a lograr un arreglo amistoso, y los invitó a conferenciar. Acompañó ese mensaje con la derogación del decreto que suspendió los pagos. Al mismo tiempo, en vista de la posibilidad real de una invasión militar que buscara llegar hasta la Ciudad de México, ordenó el traslado de pertrechos y la fortificación de Puebla, así como crear una unidad, a la que se designó como Ejército de Oriente, que fue puesta bajo el mando del general José López Uraga. En vista del desempeño deficiente de este mando, fue destituido y en su lugar se designó a Zaragoza, quien dejó el Ministerio de Guerra y se dirigió a Puebla para organizar la oposición al avance francés con cerca de 10,000 hombres; cantidad mínima si se toma en cuenta el vasto territorio que debía cubrirse.
+
+
+Reproducción de los Tratados preliminares de la Soledad. Al calce se observan las firmas de Manuel Doblado, Juan Prim, Dubois de Saligny y Charles (Carlos) Wyke
+Los representantes aceptaron el llamado y en febrero de 1862 se reunieron con los ministros juaristas del Exterior, Manuel Doblado, y de Guerra, Ignacio Zaragoza, en la hacienda de La Soledad, cerca de Veracruz. Gracias a la habilidad como negociador de Doblado se firmaron los Tratados preliminares de La Soledad, en los que se obtuvo el reconocimiento como interlocutor para el gobierno de Juárez y se garantizó el respeto a la integridad e independencia del país. Además, se convino que las negociaciones sobre la deuda se realizaran en Orizaba, donde se establecerían las fuerzas aliadas, además de Córdoba y Tehuacán, para evitar el rigor del clima tropical del puerto; si no se llegaba a un acuerdo, se retirarían a la costa para así comenzar las hostilidades.
+
+El 5 de marzo, cuando aún se realizaban las negociaciones en Orizaba, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez, quien relevó en el mando a Jurien de la Gravière y se dirigió a Tehuacán. También llegó el general conservador Juan Nepomuceno Almonte, quien de inmediato se proclamó "jefe supremo de la nación" y empezó a reunir a las tropas conservadoras, remanentes de la Guerra de Reforma, para apoyar a los franceses.
+
+En abril de 1862 la alianza tripartita se rompió debido a que España e Inglaterra se dieron cuenta de que Francia tenía un interés soterrado, de tipo geopolítico, bajo el reclamo económico: derrocar al gobierno republicano de México para establecer una monarquía favorable a su política colonial, con miras a contrarrestar el creciente poderío de Estados Unidos.[cita requerida] De las instrucciones de Napoleón III dadas al jefe militar de la expedición, se sabe que el objetivo imperialista francés consistía en ampliar sus dominios estableciendo un protectorado, cuya administración serviría para ampliar los mercados, sostener las colonias en las Antillas y del sur de América y, de ese modo, garantizar el abasto de las materias primas en Francia.3 Los representantes español (Prim) e inglés (Charles Wyke) negociaron con el gobierno juarista por separado y en última instancia aceptaron las propuestas de moratoria del gobierno mexicano, y reembarcaron a sus tropas. La posición de Francia, en contraste, presentada por el diplomático Dubois de Saligny, fue la de exigir el pago inmediato de la deuda, que incluía un cobro exagerado por parte de la Casa Jecker por los destrozos causados durante la Guerra de Reforma, y tener control total y absoluto de las aduanas, así como intervención directa en la política económica del país.
+
+A finales de abril, Lorencez desconoció los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin último de conquistar la Ciudad de México. A los militares franceses los rodeaba un aura de invencibilidad en combate dado que no habían sido derrotados desde Waterloo, casi 50 años antes, con sonadas victorias en las batallas de Solferino, Magenta y Sebastopol. Esta actitud quedó de manifiesto en el siguiente mensaje, que Lorencez envió al conde Jacques Louis César Alexandre Randon, ministro de Guerra francés, poco después de la Batalla de Las Cumbres: "Somos tan superiores a los mexicanos en organización, disciplina, raza, moral y refinamiento de sensibilidades, que le ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este momento y al mando de nuestros 6,000 valientes soldados, ya soy dueño de México”. La confianza del alto mando francés no se debía sólo a un palmarés militar impecable, sino a la fragilidad general de México y sus instituciones. Con una economía destruida por casi 50 años de guerras civiles, con un Estado débil y una población dividida por las pugnas entre facciones, la conquista del país parecía una empresa factible con un contingente reducido.
+
+Al conocer sobre el avance, el general Alejandro Constante Jiménez al mando de 2000 soldados se unió al general Zaragoza, que partió de Puebla con 4000 soldados para salir al encuentro de los franceses, quienes ya sostenían escaramuzas con guerrilleros. El comandante mexicano había enfrentado diversos problemas para conformar su ejército. Ante la falta de voluntarios y a que aún se mantenían hostilidades con grupos conservadores remanentes de la Guerra de Reforma, se había recurrido a la leva. Aunque se contaba con un cuerpo de oficiales joven pero experimentado, la mayor parte de la tropa carecía de la disciplina mínima, y estaba mal equipada y alimentada. En los días anteriores a la batalla, Zaragoza solicitó una y otra vez al alto mando en la Ciudad de México, el envío urgente de recursos económicos, ya que no podía costear ni siquiera los alimentos para las tropas. Para colmo, la explosión de un polvorín en la excolecturía de los diezmos del poblado de San Andrés Chalchicomula (hoy Ciudad Serdán), ocurrida el 6 de marzo, había matado a 1,322 soldados de la Brigada de Oaxaca enviados por el general Ignacio Mejía para incorporarse al Ejército de Oriente.
+
+El 28 de abril, el Ejército de Oriente se topó con la columna de Lorencez en un paso de montaña en las Cumbres de Acultzingo, en el límite entre Veracruz y Puebla, lo que representó el primer encuentro bélico formal. Zaragoza no pretendía cortarle el paso a los invasores, sino más bien foguear a sus soldados, muchos de ellos faltos de experiencia, y al mismo tiempo causarle el máximo de pérdidas posible al enemigo. En la llamada Batalla de Las Cumbres murieron 500 franceses, mientras las bajas mexicanas ascendieron sólo a 50. Pese a este saldo favorable, Zaragoza aún tenía desconfianza sobre el desempeño real de sus tropas en un combate en campo abierto. Luego de la retirada de los mexicanos, los franceses tomaron control del paso, con lo que aislaron al centro del país del principal puerto en el Golfo, y tuvieron la vía franca hacia Puebla.
+          </p>
+          <br>
+          </div>
+   <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/antecedentes2.jpg',1)"><img src="imagenes/antecedentes1.jpg" width="196" height="257" id="Image14"></a> </div>
+     </div>
+     </div>
+    
+    
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>La batalla.</h1>
+          <div align="justify">
+          <p>Asegurado el paso de Acultzingo, el 2 de mayo de 1862 la columna principal del ejército expedicionario francés salió de San Agustín del Palmar, en Veracruz, para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, paso obligado para llegar a la capital del país y que era además uno de los bastiones del Partido Conservador, donde esperaban ser recibidos "con una lluvia de rosas", como le aseguró Saligny a Napoleón III en una carta.4 El 3 de mayo por la noche, el general Zaragoza arribó a Puebla, dejando en su retaguardia una brigada de caballería para hostigar a los invasores. Los efectivos del Ejército de Oriente se organizaron por las calles desiertas de la ciudad, ya que la mayoría de la población era partidaria de la invasión.5
+
+
+Maqueta de la Batalla del 5 de mayo de 1862, con más de 200 esculturas entre personajes, caballos, cañones y otros. Obra del Escultor Miguel Michel
+ZUAVOS.jpg
+
+Fuertes de la ciudad de Puebla
+Zaragoza estableció su cuartel a unos cuantos metros de la línea de batalla, donde estableció el plan para la defensa de la plaza (ver tabla superior), que consistió en concentrar los pertrechos en el sur y oriente de la ciudad, esperando evitar que los franceses alcanzaran al área urbana de Puebla.
+
+El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc.
+
+El ala derecha mexicana la cubrían las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo ocuparon Felipe Berriózabal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería. La artillería sobrante la colocaron en los fortines y reductos dentro de Puebla, quedando al mando del general Santiago Tapia.
+
+A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva.
+
+Los conservadores Almonte y Antonio de Haro y Tamariz, que acompañaban a los franceses, habían sugerido que el ataque se dirigiera a las inmediaciones del ex Convento del Carmen, en el sur de la ciudad, tomando como antecedente lo que sucedió en el sitio durante la Guerra con Estados Unidos. Lorencez, confiado en la superioridad de sus tropas, así como en el auxilio que esperaba del contingente de Márquez, desoyó el consejo y decidió concentrar el ataque en los fuertes, donde los mexicanos contaban con la ventaja. Zaragoza advirtió la maniobra y rápidamente replanteó su plan de batalla, movilizando las tropas hacia las faldas del cerro. El 6o. Batallón de la Guardia Nacional del Estado de Puebla,6 bajo el mando del entonces coronel Juan Nepomuceno Méndez, fue el primer cuerpo del Ejército de Oriente en hacer frente a los franceses, al ubicarse en la línea comprendida entre los fuertes, y rechazar su ataque.7 Zaragoza hizo avanzar a las fuerzas de Berriozábal a paso veloz entre las rocas, situándolas entre la hondonada que separa a Loreto y Guadalupe. Mientras, el general Antonio Álvarez con su brigada protegió el flanco izquierdo de los reductos.
+
+La línea de batalla mexicana formó un ángulo que se extendió desde Guadalupe hasta un sitio conocido como Plaza de Román, frente a las posiciones enemigas. Zaragoza dispuso que el general Lamadrid defendiera con las tropas potosinas y dos piezas de artillería el camino que conectaba a la ciudad con la garita de Amozoc. La derecha de la línea de batalla mexicana la cerró Porfirio Díaz con la División de Oaxaca, auxiliado por los escuadrones de Lanceros de Toluca y Oaxaca.
+
+Los franceses continuaron su avance, colocando sus baterías frente a Guadalupe, al tiempo que devolvían el fuego mexicano proveniente de esa posición.
+
+En ese momento los zuavos, el regimiento de élite de la infantería francesa, iniciaron su ascenso por el cerro hacia Guadalupe, perdiéndose de la vista de los fusileros mexicanos. De repente, aparecieron disparando frente a la fortificación. Sin embargo, el fuego lanzado por los mexicanos los detuvo en seco. En ese instante, los soldados de Berriozábal los recibieron con sus bayonetas, por lo que tuvieron que retirarse en buen orden hasta ponerse fuera de tiro. Se repusieron rápidamente y se lanzaron de nuevo intentando tomar el fuerte.
+
+Los franceses, apoyados por el 1.er. y 2o. Regimientos de Infantería de Marina, se abalanzaron sobre el resto de la línea mexicana, siendo recibidos con la bayoneta. La columna francesa fue rechazada en Guadalupe y Loreto, siendo igualmente repelidos los ataques de otras columnas francesas desplegadas. En ese momento, el coronel mexicano José Rojo avisó a Antonio Álvarez que era tiempo de que la caballería mexicana entrara en acción para alcanzar una victoria completa. Ordenó a los Carabineros de Pachuca cargar sobre los restos de la columna, disparando sus carabinas y lanzando mandobles de sable sobre los franceses, siendo totalmente rechazados.
+
+A las dos y media de la tarde, cuando se empezaba a perfilar una victoria para los mexicanos, Lorencez se dispuso a lanzar el último asalto, dirigiendo a los Cazadores de Vincennes y el Regimiento de Zuavos hacia Guadalupe, mientras ponía en marcha una segunda columna de ataque compuesta de los restos de los cuerpos de batalla —excepto el 99 de Línea, el cuál quedó de reserva en el campamento francés—, para atacar por la derecha de la línea de batalla mexicana.
+
+Ante esta situación, salieron a su encuentro los Zapadores de San Luis Potosí, al mando del general Lamadrid, librándose un terrible combate a la bayoneta. Una casa situada en la falda del cerro fue el objetivo. Los franceses la tomaron y se guarecieron en ella, siendo desalojados por los zapadores; la recobraron y de nuevo fueron expulsados por las tropas de Lamadrid. Un cabo mexicano de apellido Palomino se mezcló entre los zuavos y se batió con ellos cuerpo a cuerpo, posesionándose de su estandarte como botín de guerra al caer muerto el portador del mismo. Este momento significó un golpe anímico a favor de los defensores.
+
+Ya entrada la tarde cayó un aguacero sobre el campo, lo cual dificultó el avance a las tropas francesas. Zaragoza dispuso que el Batallón Reforma de San Luis Potosí saliera en auxilio de los fuertes. En Loreto había un cañón de 68 libras que causaba enormes estragos en la filas francesas. Los zuavos hicieron una carga de infantería desesperada para apoderarse de esa pieza. El artillero mexicano, sorprendido por la rapidez de los franceses, tenía en sus manos la bala de cañón que no alcanzó a colocar en la boca de fuego. Un zuavo apareció frente a él y tras éste el resto del cuerpo que, una vez apoderados de ese fortín, levantarían la moral francesa y podría perderse la victoria conseguida. El artillero arrojó la bala al soldado francés, que herido mortalmente por el golpe en la cabeza rodó al foso del parapeto. Luego de que este asalto fue rechazado, los franceses retrocedieron siendo perseguidos por el Batallón Reforma.
+
+Mientras, cuando la segunda columna llegó al Fuerte de Guadalupe protegida por una línea de tiradores, Porfirio Díaz acudió en auxilio de los Rifleros de San Luis Potosí, que estaban a punto de ser rodeados. Movió en columna al Batallón Guerrero, a las órdenes del coronel Jiménez, y le ganó el terreno a los franceses. Para apoyar envió al resto de las tropas de Oaxaca, con los coroneles Espinoza y Loaeza a la cabeza, con lo que se logró expulsar al enemigo de las cercanías. El éxito alentó a Díaz, que destacó al Batallón Morelos con dos piezas de artillería a la izquierda, mientras por la derecha los Rifleros de San Luis Potosí se reponían de la pelea, antecedidos por una carga de los Lanceros de Oaxaca, trabándose un combate cuerpo a cuerpo que hizo retroceder a los atacantes.
+
+En aquel momento, luego de ser repelidos por última vez, las efectivos franceses empezaron a huir, completamente dispersados. Se replegaron a la hacienda Los Álamos, para finalmente retirarse hacia Amozoc.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/la batalla.jpg"> </div>
+     </div>
+     </div>
+    
+    
+     <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Consecuencias</h1>
+          <div align="justify">
+          <p>El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".
+
+El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.10 Lo sustituyó en el mando del Ejército de Oriente el general Jesús González Ortega, quien se encargaría de la defensa de la ciudad ya que se esperaba el regreso de los franceses, reagrupados y con refuerzos, lo cual sucedió en marzo del siguiente año. Los historiadores concuerdan en señalar el talento de Zaragoza como organizador y motivador de sus tropas. Antes de la batalla, las arengó diciéndoles que si bien los franceses eran considerados "los primeros soldados del mundo", ellos eran "los primeros hijos de México", lo cual tuvo tal efecto en la moral de sus soldados que su determinación por defender la plaza ante los invasores compensó sus carencias materiales y de disciplina. Además, no temió tomar decisiones arriesgadas, como prescindir de los 2000 efectivos que O'Horan se llevó para batir a Leonardo Márquez, y en el curso de la batalla actuó con serenidad y efectividad. Se le considera héroe nacional y en su honor, tiempo después, Juárez renombró a la ciudad como Heroica Puebla de Zaragoza.
+
+Cabe atribuir parte de la responsabilidad en el resultado de la batalla a Lorencez, por decidir lanzarse en primer lugar contra Loreto y Guadalupe en lugar de ir sobre la ciudad. Esta acción no carece de sentido si se toma en cuenta que el general francés se encontraba confiado en la victoria por lo que había sucedido en las Cumbres, además de que bajo la lógica militar de su tiempo, primero había que atacar al enemigo en sus posiciones más fuertes. En todo caso, ensoberbecido por la superioridad per se de los franceses, no contó con la férrea resistencia mexicana y cometió yerros garrafales: así, por ejemplo, fue famosa su orden de colocar sus cañones en batería a dos kilómetros y medio de las fortificaciones poblanas, lo cual fue calificado por el propio Napoleón III como un disparate11 ya que las balas llegaban a sus blancos, pero sin fuerza. El conde fue repatriado y lo sustituyó Frédéric Forey en el mando de las tropas expedicionarias. Cuando en Francia se supo la derrota del ejército francés, originó dolor, histeria y llanto, más aún cuando llegaron las historias de que los indígenas zacapoaxtlas (que en realidad se trataba del sexto Batallón de Guardia Nacional del Estado de Puebla12 ) habían atacado con machetes, arma desconocida en Europa, se comían los cadáveres. El resto de Europa, con incredulidad y asombro, comentaban como el ejército francés, invicto desde la Batalla de Waterloo en 1815, había sido derrotado en México, un ejército considerado el mejor del mundo, el vencedor en la conquista de Argelia y de la Indochina francesa (hoy Vietnam), había sido derrotado por un país tropical, utilizando tácticas de guerra desconocidas en Europa, como era la Guerra de Guerrillas.
+
+La guerra de guerrillas efectivamente fue utilizada en México, pero ya antes se conocía tal táctica en Europa, y más en concreto en España, lugar donde se dio por vez primera este tipo de guerra 400 años antes de Cristo, e incluso contra la invasión de las tropas de Napoleón en el siglo XIX, y que por tal motivo en este país se le dio tal nombre, guerra de guerrillas.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/concecuencias.jpg"> </div>
+     </div>
+     </div>
+   </div>
+   
+   
+   <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   </div>
+   </div>
+</div>
+   
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+  <h1>Celebración en otros países</h1>
+  </div>
+  <div data-role="content" align="justify">
+       <p>En México, el aniversario de la Batalla de Puebla tiene un significado importante; sin embargo, el cinco de mayo es celebrado por los mexicanos en los Estados Unidos como el Día del Orgullo Mexicano, adquiriendo una relevancia distinta del significado histórico de la fecha.2 3
+
+Las explicaciones de por qué la fecha tiene tanta popularidad en los Estados Unidos de América son muchas. Van desde la interpretación de algunos historiadores que ven en la victoria mexicana del cinco de mayo un factor que ayudó al triunfo de las fuerzas federales contra los estados esclavistas del sur en la guerra civil estadounidense, hasta la idea de que la derrota pospuso la ocupación francesa de México y evitó que Napoleón III pudiera ayudar a las tropas de la Confederación en un período clave de la Guerra Civil. Esto afirmaría que el impacto de la victoria mexicana en Puebla en 1862 y luego el sitio en esa ciudad en 1863 hicieran eco en la batalla de Gettysburg en julio de 1863, donde la victoria de las fuerzas federales definió el fin para la Confederación.[cita requerida]
+
+
+Artesanía mexicana simulando papel picado
+En muchas ciudades de Estados Unidos se realizan diversos festivales en donde se reúnen integrantes de los consulados, mariachis, bandas mexicanas, restaurantes, artesanos y la población inmigrante que ahí habita. Uno de los festejos más grandes es el que se realiza en la Placita Olvera en la ciudad de Los Ángeles, California. Justo en esta ciudad la Unión de Poblanos en el Exterior organiza un festival con ceremonias cívicas y culturales. El viernes 3 de mayo del 2013 en el festejo de la Placita Olvera se reconoció al Dr. David Hayes Bautista, profesor de UCLA, por la publicación de su libro ‘Cinco de Mayo: An American Tradition’ y por su labor de investigación sobre el contexto histórico del Cinco de Mayo. De acuerdo con la tesis de Hayes, el Cinco de Mayo es una fiesta creada por los latinos en California, a mediados del siglo XIX, con un significado que ha cambiado con el tiempo y que pasó de una fecha nostálgica en 1930 a una expresión de patriotismo en los cuarenta, y que abrió la pauta al nacimiento del chicano power en los sesenta.4
+
+Pero no sólo en la frontera de México con Estados Unidos se conmemora la Batalla de Puebla. En Nueva York se realiza el Cinco de Mayo Parade en Central Park, donde además del desfile de trajes regionales típicos se realiza una recaudación de fondos para estudiantes mexicanos de nivel superior. Previo al desfile se realizan concursos en diferentes ciudades para encontrar a las mujeres que durante la celebración representarán a Miss Cinco de Mayo. Tal es la euforia que este festejo genera en la comunidad mexicana que habita en Estados Unidos que también hay convocatoria para que las niñas menores de 4 años participen en «Pequeña Cinco de Mayo».5
+
+En otras ciudades de Estados Unidos—como Chicago, Phoenix y Washington—también se reúne la comunidad mexicana como símbolo de unidad e identidad. El impacto que esta celebración tiene en la comunidad mexicana-estadounidense, según David Hayes, tiene que ver con que la Guerra Civil y la Intervención Francesa fueron luchas paralelas en las que estaban en juego los ideales democráticos y antirracistas. Durante 1860, en plena Guerra Civil estadounidense, mexicanos distribuidos en más de cien localidades californianas crearon juntas patrióticas que celebraban el Cinco de Mayo y trataban de apoyar a mexicanos y a las fuerzas anti-esclavistas. Concluidos estos conflictos, los veteranos de ambas guerras en el noreste de México y en California hacían festejos cívicos para recordar el por qué de sus luchas. Con el paso del tiempo, el Cinco de Mayo se convirtió en un día de orgullo étnico, de fiesta cívica, de expresión comunitaria y de celebración en Estados Unidos. 6
+
+Gente no mexicana también celebra este día en los Estados Unidos y en otros países invocando estereotipos de la cultura mexicana. Un ejemplo son las piñatas en forma de burro.</p>
+     
+  </div>
+  <div align="center">
+     <img src="imagenes/otros paises.jpg">
+  </div>
+  <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   </div>
+   </div>
+</div>
+      
+      
+      
+      
+      
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+      <h1>Heroes De La Batalla</h1>
+  </div>
+  <div align="center">
+       <!-- Start WOWSlider.com -->
+<iframe src="visor/index_wow.html" style="width:386px;height:276px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+    </div>
+  <div data-role="content" align="center">
+       
+       <div align="center">
+       <h1>Benito Juarez</h1>
+       </div>
+       <div align="justify"
+       <p>
+       Presidente mexicano está escrito en la historia
+        Una de las muchas cosas por las que será recordado Benito Juárez García es quizá haber marcado un parteaguas en la historia de México, al lograr la consolidación de la república.
+
+Juárez, quien en sus primeros años fue seminarista al ver que éstos gozaban de buena educación, siendo presidente decidió separar a la Iglesia del Estado, decretando en 1859 la primera de las normas de lo que sería denominado la Reforma: La Ley de Nacionalización de los Bienes Eclesiásticos.
+
+La Guerra de Reforma, conocida también como Guerra de los Tres Años, enfrentó en México entre 1857 y 1861, a los dos grandes bandos en que se dividía la sociedad mexicana: liberales y conservadores.
+
+El resto de las leyes que decretó Juárez fueron por ejemplo la Ley sobre la libertad de cultos, se prohibió la asistencia oficial a funciones de la Iglesia, se cesó la intervención del clero en cementerios y camposantos, entre otras. Esto evidentemente enfureció en su tiempo a los altos mandos religiosos.
+
+La controvertida Reforma dejó al erario mexicano en una situación precaria, por lo que el país dejó de tener la posibilidad de saldar sus deudas. A la larga, desde Europa creció la molestia, por lo que el puerto de Veracruz fue invadido el 15 de diciembre de 1861 por unos seis mil españoles. Para el 9 de enero de 1862, se les unieron tres mil franceses y 800 ingleses.
+
+El conflicto duró hasta el 5 de mayo de 1862, cuando las tropas mexicanas bajo el mando de Ignacio Zaragoza, derrotaron a las francesas
+       </p>
+       <div align="center">
+       <img src="imagenes/benito.jpg">
+       </div>
+      
+      <div align="center">
+      <h1>General Ignacio Zaragoza</h1>
+      </div>
+      <div align="justify">
+      <p>
+      El General Ignacio    Zaragoza hizo frente con un pequeño ejército, a las potentes fuerzas francesas de Napoleón III durante la Segunda Intervención Francesa.
+
+Ignacio    Zaragoza Seguin nació el 24 de marzo de 1829 en la ciudad de Presidio de La Bahía de Espíritu Santo, actualmente Goliad, al sur de Texas, Estados Unidos. Fue el segundo hijo del matrimonio formado por Miguel    Zaragoza Valdez y María de Jesús Seguin Martínez. A los cinco años de edad, y tras la independencia del estado de Texas, su familia se muda a Matamoros en el Estado de Tamaulipas donde inicia sus estudios y diez años después, se muda a Monterrey, Nuevo León Durante algunos años se inclina por la carrera sacerdotal, pero la abandona, quizá para continuar con el ejemplo de su padre quien era soldado de infantería.
+
+Durante la intervención de Estados Unidos de América en México, entre 1846 y 1848, el joven    Zaragoza intentó alistarse como cadete, pero fue rechazado.  Desde lejos vio como México perdía más de la mitad de su territorio en una guerra desigual.
+
+Fue hasta 1953 que logró ingresar al ejército de Nuevo León, primero como sargento, y luego como capitán de su regimiento. En 1854 decide adherirse al Plan de Ayutla, movimiento que intentaba derrocar al dictador Antonio López de Santa Anna y junto con 100 seguidores toma las armas para defender la causa liberal, misma que no abandonaría hasta el momento de su muerte.
+
+En 1860 luchó en favor de la Constitución de 1857. Participó en la batalla de Calpulalpan haciendo frente a las fuerzas conservadoras. Con a esta batalla, ganada fácilmente gracias a un valeroso contraataque, los liberales pusieron fin a la Guerra de Reforma e instauraron las bases de un nuevo sistema republicano.
+
+Durante el mandato de Benito Juárez,    Zaragoza fue reconocido por su alto sentido de lealtad y patriotismo por ello sirvió al país como ministro de Guerra y Marina, cargo que desempeño hasta 1861.
+
+Pero el pasaje más sobresalientes en la vida de este militar, fue cuando la naciente república mexicana, ahogada financieramente por todas las deudas y gastos de las guerras, decide, a través de Benito Juárez, decretar una moratoria y suspender los pagos de la deuda externa.
+
+Frente a este escenario, España, Francia e Inglaterra, países a los que se debía la mayor parte de la deuda, inconformes, integran una alianza tripartita y con sus fuerzas armadas llegan al puerto de Veracruz.  Tras nuevas negociaciones España e Inglaterra deciden retirarse, pero Francia, en un franco deseo por construir un nuevo gobierno imperial y extender sus dominios en América, decidió proseguir con su incursión en territorio mexicano.
+
+Rápidamente el presidente Juárez organiza una unidad bélica y pone al mando al general Ignacio    Zaragoza . El ejército, compuesto por casi 10 mil hombres, es nombrado como el Ejército de Oriente y tienen como misión enfrentar a contingente francés de unos 6,000 soldados comandado por el insolente general Charles Ferdinand Latrille.
+
+Zaragoza sabía de antemano que tenía una difícil responsabilidad y una clara desventaja tanto en armamento como en disciplina, pues el ejército mexicano tenía una precaria situación y carecía prácticamente de todo excepto de valor. Sabiendo de qué estaban hechos sus hombres,    Zaragoza les dice:
+
+“Nuestros enemigos son los primeros ciudadanos del mundo, pero vosotros sois los primeros hijos de México y os quieren arrebatar vuestra patria”
+      </p>
+       </div>
+       <div align="center">
+         
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/ignacio2.jpg',1)"><img src="imagenes/ignacio1.jpg" width="275" height="183" id="Image10"></a>
+       </div>
+      </div>
+      
+      <div align="center">
+      <h1>Miguel Negrete</h1>
+      </div>
+      <div align="justify">
+      <p>Miguel Negrete Novoa (Tepeaca, Puebla, 8 de mayo de 1824 — Ciudad de México, 5 de enero de 1897) fue un militar mexicano, participó durante las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de Guerra durante la presidencia de Benito Juárez.
+      Miguel Negrete luchó contra los norteamericanos en la durante la Primera intervención estadounidense en México. En 1855 se levantó en armas en Zamora, Michoacán durante la Revolución de Ayutla en apoyo de las fuerzas liberales con el objetivo de derrocar la dictadura de Su Alteza Serenísima Antonio López de Santa Anna. Durante los acontecimientos llegó a ser ascendido al grado de coronel.
+      Tras el pronunciamiento del Plan de Tacubaya de Félix Zuloaga contra el gobierno de Ignacio Comonfort y la Constitución Federal de 1857, Negrete decidió unirse al bando Zuloaga, militando en estas fuerzas y abrazando los ideales de los conservadores durante la Guerra de Reforma.
+
+A finales de diciembre de 1857 se inicia el período de pronunciamientos en contra de las tropas conservadoras. Con esto, Miguel Negrete, tras llegar a Tlaxcala, en Santa Ana Chiautempan se muestra en favor de la Constitución, poniéndola de nuevo en vigor en el estado de Tlaxcala, tomando la capital del estado y, acto seguido, atacando la Ciudad de Puebla.
+
+En abril de 1858 vuelve a cambiar de bando, ahora con los conservadores, siendo por ello ascendido al grado de general a instancias del general conservador Miguel Miramón.
+
+Participó junto con Leonardo Márquez y José Joaquín Ayesterán el 22 de diciembre de 1860 en la Batalla de Calpulalpan. Derrotado por las tropas liberales comandadas por Jesús González Ortega en los llanos de Calpulalpan, Estado de México, se retira a la vida privada gracias a una amnistía que le ofrece el gobierno de Juárez.
+Durante la Segunda Intervención Francesa en México, Negrete hizo a un lado su ideología conservadora y participó en la defensa del territorio mexicano, ante el avance de las tropas francesas hacia el centro de México, Negrete reacciona y se pone de parte del bando liberal con su célebre frase "Yo tengo Patria antes que Partido".
+
+Unido al ejército republicano y a las órdenes del general Ignacio Zaragoza, ambos se cubren de gloria en la Batalla de Las Cumbres y en la Batalla de Puebla el 5 de mayo de 1862, llegando a ser considerado como el segundo héroe de dicha batalla al defender el Fuerte de Loreto.
+Hacia 1863, y siendo gobernador del Estado de Puebla, ante el avance de las tropas francesas se les encomendó a él y a Jesús González Ortega (Nuevo General en Jefe del Ejército de Oriente) la defensa de el Sitio de Puebla. Tomada ésta por los franceses, desbandóse el Ejército de Oriente; huyeron sus jefes y generales, entre ellos Negrete, Jesús González Ortega, Felipe Berriozábal y Porfirio Díaz. Todos ellos serían apresados en el camino a Veracruz y, tras ello, llevados prisioneros a Francia, pero Negrete logró escapar. Puesto a las órdenes de Benito Juárez fue ministro de Guerra de marzo de 1864 a agosto de 1865. Tomó parte en la toma de las ciudades de Monterrey y Saltillo.
+      </p>
+      </div>
+      <div align="center">
+        
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/miguel2.jpg',1)"><img src="imagenes/miguel1.jpg" width="189" height="266" id="Image11"></a>
+      </div>
+      
+       
+      
+      </div>
+      
+<div data-role="footer" data-theme="c" data-position="fixed">
+       <h4>Yessica Perez Morales</h4>
+      </div>
+     </div>
+    </div>
+    
+    
+    
+    
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+    <h1>4 de Mayo</h1>
+   </div>
+   <div data-role="content" align="center">
+     
+     
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Batalla de Atlixco</h1>
+          <div align="justify">
+          <p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.
+elementos del ejército mexicano, al mando de los  generales Antonio Carvajal y Tomás O'Horan, libraron una batalla contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobosy de Leonardo Márquez, esto en las inmediaciones de la Hacienda de las Traperas, que se localizan en esta demarcación.
+
+Los soldados conservadores mexicanos fueron enviados como refuerzos durante la Segunda Intervención Francesa en México para la posterior pelea, el 5 de mayo de 1862, mejor conocida como la Batalla de Puebla.
+
+Explicó que el combate culminó con una victoria republicana, por lo que el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez .
+
+Por ese motivo, Castillo Sánchez destacó la importancia que tiene para el municipio de Atlixco la realización de un desfile en conmemoración al 4 de mayo de 1862.
+
+De esa manera, mencionó que este día se llevó a cabo un desfile cívico-militar, en el que participaron escuelas, cuerpos de emergencia, y desde luego, brigadas castrenses.
+
+Así mismo, este año se llevó a cabo la quema de banderas, esto como homenaje a las acciones heroicas.
+
+“Conforme a lo dispuesto en el Artículo 54 Bis de la Ley sobre el Escudo, la Bandera y el Himno Nacional, el cual refiere que cuando se requiera destruir alguna réplica de la Bandera Nacional, se hará mediante la incineración en acto respetuoso y solemne, de acuerdo con las especificaciones que el reglamento correspondiente determine”, refirió.
+          </p>
+          <br>
+          </div>
+   <div>
+     <img src="imagenes/4 de mayo.jpg"> </div>
+     </div>
+     </div>
+     
+     
+     
+     
+     
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1>Desfile 4 de Mayo en Atlixco</h1>
+          <div align="justify">
+          <h2>Conmemoran en Atlixco el inicio de la Batalla de Puebla</h2>
+          <p>Con un desfile en el que participaron más de 9 mil personas, este día en Atlixco se conmemoró el 4 de mayo de 1862, fecha en la que de acuerdo a documentos históricos inició la Batalla de Puebla, señaló el regidor de Educación, Cultura y Deporte, Félix Castillo Sánchez.
+          </p>
+          <br>
+          </div>
+   <div align="center">
+     <img src="imagenes/desfile1.jpg">
+      </div>
+      <br>
+      <div align="center">
+      <img src="imagenes/desfile2.jpg">
+      </div>
+      <br>
+      <div align="center">
+      <img src="imagenes/desfile3.jpg">
+      </div>
+      <br>
+      <div align="center">
+        <img src="imagenes/desfile4.jpg">
+      </div>
+     </div>
+     </div>
+     </div>
+       <div data-role="footer" data-theme="c" data-position="fixed">
+     <h4>Yessica Perez Morales</h4>
+   </div>
+   </div>
+</div>
+</div>       
+    
+</body>
+</html>
